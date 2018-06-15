@@ -386,6 +386,9 @@ print(items)
 回傳在串列中第一次出現元素x的索引:index()
 將串列中的元素加以反轉:reverse()
 由小至大排序串列中的元素:sort()
+插入元素到指定位置上:insert()  {ex:list.insert(0, "str")}
+刪除某個index值: {ex:del list[0]}
+
 ```
 ### list的超強大功能:序列拆解
 ```
