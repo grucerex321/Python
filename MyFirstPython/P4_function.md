@@ -500,13 +500,13 @@ print(x)
 
 #### 把lambda運算式當做函數
 ```
-f1 = lambda x, y, z: x+2y+3z
+f1 = lambda x, y, z: x+2*y+3*z
 print(f(2,3,1))
 ```
 
 #### 使用預設值參數
 ```
-f2 = lambda x, y=2, z=4: x+2y+3z
+f2 = lambda x, y=2, z=4: x+2*y+3*z
 print(f2(2))
 
 print(f2(2,z=3, y=4)) #使用關鍵參數呼叫
