@@ -501,7 +501,7 @@ print(x)
 #### 把lambda運算式當做函數
 ```
 f1 = lambda x, y, z: x+2*y+3*z
-print(f(2,3,1))
+print(f1(2,3,1))
 ```
 
 #### 使用預設值參數
